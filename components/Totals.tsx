@@ -18,5 +18,5 @@ const ShowTotal = styled.h2`
 export function Totals() {
   const total = useRecoilValue(totalState)
   if (Array(total).length === 0) return null
-  return <ShowTotal>Totals {total.toFixed(2)}</ShowTotal>
+  return <ShowTotal>Totals ${total.toFixed(2)}</ShowTotal>
 }

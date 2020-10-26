@@ -20,6 +20,7 @@ const Grid = styled.div`
     }
     p {
       color: var(--mainColor);
+      margin-bottom: 1.3em;
     }
   }
 `
