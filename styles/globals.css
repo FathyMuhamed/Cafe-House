@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif; */
+  font-family: "Chewy", cursive;
+  line-height: 1.6;
+  background-color: var(--backgroundColor);
+  /* background-image: url('../static/images/cafeHome.svg'); */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --mainColor: #030047;
+  --secondColor: #ff3e6c;
+  --fontColor: #c4c4c4;
+  --backgroundColor: #fcfaf7;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--mainColor);
+}
+h2 {
+  color: var(--mainColor);
+}
