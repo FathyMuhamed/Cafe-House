@@ -19,11 +19,10 @@ export const Container = styled.div`
     -ms-transform: rotate(-2deg) scale(1.1);
     transform: rotate(-2deg) scale(1.1);
     color: var(--mainColor);
-    margin:.5em auto ;
+    margin: 1em auto ;
   }
   main {
-  min-height: 75vh;
-
+    min-height: 70vh;
   }
 `
 
@@ -39,11 +38,8 @@ export default function Layout({
   return (
     <Container>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <link rel="icon" href="static/icon3.jpg" />
+        <meta name="description" content="Cafe House website using Next.js" />
         <meta name="og:title" content={title} />
         <meta name="twitter:card" content="summary_large_image" />
         <title>{title}</title>
@@ -51,7 +47,17 @@ export default function Layout({
       <Nav />
       <main>{children}</main>
       <footer>
-        <h4>CopyRight @pxuee</h4>
+        <h4>
+          CopyRight @
+          <a
+            href="https://twitter.com/Pxuee"
+            target="_blank"
+            title="Twitter"
+            rel="noreferrer noopener"
+          >
+            pxuee
+          </a>
+        </h4>
       </footer>
     </Container>
   )

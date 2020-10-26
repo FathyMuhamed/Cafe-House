@@ -1,7 +1,7 @@
 import Layout from "components/Layout"
 import styled from "styled-components"
 const ImgContact = styled.img`
-  width: clamp(15em, 30vw, 30em);
+  width: clamp(13em, 28vw, 28em);
   margin: 2em auto;
 `
 
