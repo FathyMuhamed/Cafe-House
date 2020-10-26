@@ -8,7 +8,8 @@ body {
   font-family: "Chewy", cursive;
   line-height: 1.6;
   background-color: var(--backgroundColor);
-  /* background-image: url('../static/images/cafeHome.svg'); */
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondColor) var(--backgroundColor);
 }
 
 * {

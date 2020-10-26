@@ -38,7 +38,7 @@ export default function Layout({
   return (
     <Container>
       <Head>
-        <link rel="icon" href="static/icon3.jpg" />
+        <link rel="icon" href="static/icon3.png" />
         <meta name="description" content="Cafe House website using Next.js" />
         <meta name="og:title" content={title} />
         <meta name="twitter:card" content="summary_large_image" />
