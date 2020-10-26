@@ -1,3 +1,4 @@
+import { Item } from 'next-env'
 import {atom} from 'recoil'
 
 const initialState: Item = {}
